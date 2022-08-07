@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.wrapper {
+  background-color: #e01a1a;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.calculator {
+  background: rebeccapurple;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.textView {
+  width: 215px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: end;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  margin: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px grey;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 15px black;
+}
+
+.equal {
+  height: 110px;
+}
+
+.equal:hover {
+  background-color: chartreuse;
+  color: white;
+}
+
+.del:hover {
+  background-color: red;
+  color: white;
+}
+
+.zero {
+  width: 110px;
+}
